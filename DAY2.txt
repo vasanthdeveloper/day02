@@ -1,0 +1,33 @@
+write a blog on the diffrence between document and window objects in js
+
+In Javascript, the document and window objects are two of the most important objects in the browser environment.
+Both of these objects provide access to important properties and methods that allow us to manipulate the web page and interact with the user. 
+However, there are some key differences between these objects that are important to understand.
+
+The window Object:
+The window object represents the browser window or tab that contains the web page. 
+It is the top-level object in the browser's hierarchy of objects and is always available. 
+The window object provides access to the browser's properties and methods, such as alert(), setInterval(), and setTimeout(). 
+We can access the window object using the global window variable or by simply omitting the object name, as in alert().
+
+The document Object:
+The document object represents the web page loaded in the browser window. 
+It is a property of the window object and provides access to the web page's properties and methods, such as getElementById(), createElement(), and write(). 
+We can access the document object using the window.document property or by simply using the document variable.
+
+Scope:
+The window object is a global object that is available throughout the entire Javascript code. 
+In contrast, the document object is only available within the context of the web page loaded in the browser. 
+We cannot access the document object outside of the browser environment.
+
+Properties and Methods:
+Both the window and document objects have their own set of properties and methods. 
+The window object provides access to the browser's properties and methods, such as location, history, and navigator. 
+The document object provides access to the web page's properties and methods, such as title, URL, and body.
+
+Events:
+The window and document objects can both be used to handle events in the browser environment. 
+The window object can handle events such as load, resize, and scroll, while the document object can handle events such as click, submit, and keydown. 
+We can add event listeners to both objects using the addEventListener() method.
+
+In conclusion, the window and document objects are two of the most important objects in the browser environment, and they have their own set of properties and methods. While the window object represents the browser window or tab, the document object represents the web page loaded in the browser. Understanding the differences between these two objects is important for writing effective Javascript code in the browser environment.
